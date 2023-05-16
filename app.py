@@ -15,7 +15,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'hello'])
 def download_video(update):
-    bot.reply_to(update, 'Hello there!')
+    bot.reply_to(update, 'Hello there! I am UtubeWarlock')
 
 @bot.message_handler(commands=['video'])
 def handle_video_command(message):
